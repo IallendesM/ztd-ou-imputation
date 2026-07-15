@@ -36,7 +36,3 @@ Los datos reales de estaciones GNSS usados durante la práctica son propiedad de
 ## Stack técnico
 
 `Python` · `numpy` · `pandas` · `scipy` (`optimize`, `stats`, `signal`)
-
-## Contexto adicional
-
-El informe completo de la práctica (con resultados detallados, comparación de estimadores, y aplicación a estaciones reales) está disponible como PDF adjunto por separado.
