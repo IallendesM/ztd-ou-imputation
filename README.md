@@ -23,19 +23,15 @@ dX_t = -μ X_t dt + σ dB_t
 |---|---|
 | `ou_estimation.py` | Simulación Euler-Maruyama del proceso OU, estimadores MLE y Wasserstein |
 | `em_imputation.py` | Puentes OU, algoritmo EM de imputación, test de bondad de ajuste |
-| `demo.py` | Demo autocontenido con datos sintéticos (sin datos institucionales) |
+| `demo.ipynb` | Demo autocontenido con datos sintéticos (sin datos institucionales) |
 
-## Demo rápido
+## Demo
 
-```bash
-python demo.py
-```
-
-Genera una serie sintética de un proceso OU con parámetros conocidos, le remueve un segmento de datos, y verifica que el algoritmo de imputación recupera parámetros consistentes con los que generaron la serie completa.
+El notebook `demo.ipynb` genera una serie sintética de un proceso OU con parámetros conocidos, le remueve un segmento de datos, y verifica que el algoritmo de imputación recupera parámetros consistentes con los que generaron la serie completa.
 
 ## Nota sobre los datos
 
-Los datos reales de estaciones GNSS usados durante la práctica son propiedad del proyecto FONDECYT 11230184 y no se incluyen en este repositorio. El código se presenta como referencia de la implementación; el `demo.py` permite verificar su funcionamiento de extremo a extremo sin depender de esos datos.
+Los datos reales de estaciones GNSS usados durante la práctica son propiedad del proyecto FONDECYT 11230184 y no se incluyen en este repositorio. El código se presenta como referencia de la implementación; el `demo.ipynb` permite verificar su funcionamiento de extremo a extremo sin depender de esos datos.
 
 ## Stack técnico
 
